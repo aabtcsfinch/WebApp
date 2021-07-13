@@ -1,0 +1,33 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Web App starter for Fastify &amp; TypeScript w/ TypeORM, point-of-view, ejs, bootstrap 5, fastify-oauth2, stripe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csfinchjs/WebApp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csfinchjs/WebApp/issues"
+  },
+  "homepage": "https://github.com/csfinchjs/WebApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "fastify": "^3.19.1",
+    "fastify-oauth2": "^4.2.3",
+    "point-of-view": "^4.15.1",
+    "stripe": "^8.161.0",
+    "ts-node": "^10.1.0",
+    "typeorm": "^0.2.34"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
